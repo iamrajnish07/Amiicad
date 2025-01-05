@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screw Water Turbine | Projects | AmiiCAD | Amit Sharma</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="website icon" type="jpg" href="./Images/logo.jpg">
+</head>
+<style>
+  nav, .nav-links {
+      display: flex;
+    }
+
+    nav {
+      justify-content: space-around;
+      align-items: center;
+      height: 17vh;
+    }
+
+    .nav-links {
+      gap: 2rem;
+      list-style: none;
+      font-size: 1.5rem;
+    }
+    .article-container{
+      overflow: hidden;
+      
+    }
+    .details-container{
+      display: flex;
+      
+    }
+    .data{
+      display: flex;
+      flex-direction: column;
+      width: 100vh;
+    }
+    .project-img{
+      height: 100%;
+      width: 50vh;
+    }
+    .project-info{
+      margin: 0px 2rem;
+    }
+    .more-images{
+      height: 15vh;
+    }
+    @media screen and (max-width: 600px){
+      .details-container{
+      display: block;
+      
+    }
+    .data{
+      display: flex;
+      flex-direction: column;
+      width: 35vh;
+    }
+    .project-img{
+      height: 100%;
+      width: 35vh;
+    }
+    }
+    
+</style>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"><b>AmiiCAD</b></div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a style="background-color: gray; color: white; border-radius: 30px; padding: 5px 10px;" href="./project.html">Projects</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="#contact">Log in</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">AmiiCAD</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="./index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="./project.html" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="./contact.html" onclick="toggleMenu()">Contact</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Log in</a></li>
+          </div>
+        </div>
+      </nav>
+
+
+      
+
+      <section id="projects">
+        <h1 class="title">Screw Water Turbine</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./Images/Screw Water Turbine.jpg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <div class="data">
+                <h2 class="experience-sub-title project-title">Screw Water Turbine</h2>
+                <p class="project-info">A water screw turbine, also known as an Archimedes Screw Turbine (AST), is a device that uses the weight of flowing water to generate electricity: 
+                  How it works
+                  Water enters the top of the turbine's shaft, causing the screw blades to rotate and the water to fall to a lower level. 
+                  Benefits
+                  ASTs can be used in low-head hydropower sites, where water flows are low and heads are very low. They are also fish-friendly, as their low rotation speed reduces negative impacts on aquatic life.</p>
+                <div class="more-images">
+
+                </div>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="location.href='https://mega.nz/file/LE80nDxS#gzpF-cuAUxw8xJWuBaTRxAPMLKFEcvWdC30Q_pyM5fs'"
+                  >
+                    Download
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+
+
+
+
+
+
+
+          
+          <div style="justify-content: center;" class="about-containers">
+            <footer>
+              <nav>
+                <div class="nav-links-container">
+                  <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="./project.html">Projects</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <p>Copyright &#169; 2024 AmiiCAD || Design and created by <a href="https://www.linkedin.com/company/rixi-lab/" style="text-decoration: none; color: #555555;">Rixi Lab</a>. All Rights Reserved.</p>
+            </footer>
+          </div>
+        </div>
+      </section>
+      <script src="script.js"></script>
+</body>
+</html>
